@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@100;300;400&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+
+    <div class="info-container">
+        <div class="name">
+            hello: <span></span>
+        </div>
+        <div class="timer">
+            
+        </div>
+        <div class="tries">
+            wrong Tries: <span>0</span>
+        </div>
+    </div>
+    <div class="memory-game-blocks">
+        <div class="game-block" data-technology="angular">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./angular.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="angular">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./angular.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="css">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./css.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="css">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./css.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="gulpjs">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./gulpjs.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="gulpjs">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./gulpjs.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="guthub">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./guthub.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="guthub">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./guthub.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="html">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./html.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="html">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./html.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="jest">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./jest.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="jest">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./jest.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="mongodb">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./mongodb.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="mongodb">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./mongodb.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="paython">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./paython.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="paython">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./paython.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="react">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./react.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="react">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./react.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="game-block" data-technology="vuejs2">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./vuejs2.jpg" alt="">
+            </div>
+        </div>
+        <div class="game-block" data-technology="vuejs2">
+            <div class="face front"></div>
+            <div class="face back">
+                <img src="./vuejs2.jpg" alt="">
+            </div>
+        </div>
+        <div class="navigation">
+            <p></p>
+            <span>try again</span>
+        </div>
+        <audio id="start" src="./analog-timer-60-sec-2-startof-171599.mp3"></audio>
+        <audio id="wrong" src="./failure-drum-sound-effect-1-46093.mp3"></audio>
+        <audio id="succses" src="./short-success-sound-glockenspiel-treasure-video-game-6346.mp3"></audio>
+        <audio id="win" src="./success-fanfare-trumpets-6185.mp3"></audio>
+        <audio id="lose" src="./wah-wah-sad-trombone-6347.mp3"></audio>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
